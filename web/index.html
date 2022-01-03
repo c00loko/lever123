@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lever123 - Best Prison Life Script</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="text" value="Copied Script!" readonly="" id="copyPopup">
+    <div class="banner">
+
+        <div class="navbar">
+            <img src="./logo.png" class="logo">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a onclick="alert('Comming Soon!')">PREMIUM</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Exploiting in one hand.</h1>
+            <h2>Use a Lever123 to destroy prison life.</h2><br>
+            <h3>Script:</h3>
+            <button id="scriptBtn"><span style="color: rgb(78, 153, 204);">loadstring</span>(game:<span style="color: rgb(78, 153, 204);">HttpGet</span>(<span style="color: rgb(80, 179, 179);">"</span><span style="color: rgb(149, 199, 144);">https://lever123.000webhostapp.com/script.lua</span><span style="color: rgb(80, 179, 179);">"</span>))();</button>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript">
+    function msg(text) {
+        alert(text)
+    }
+
+    const scriptBtn = document.getElementById("scriptBtn");
+    const copyPopup = document.getElementById("copyPopup");
+
+    scriptBtn.addEventListener("click", () => {
+        const scriptBox = document.createElement("textarea");
+        scriptBox.value = 'loadstring(game:HttpGet("https://lever123.000webhostapp.com/script.lua"))();';
+        document.body.appendChild(scriptBox);
+        scriptBox.select();
+        document.execCommand("copy");
+        document.body.removeChild(scriptBox);
+        copyPopup.style.display = "block";
+        setTimeout(() => {copyPopup.style.display = "none";}, 1000);
+    });
+</script>
+</html>
