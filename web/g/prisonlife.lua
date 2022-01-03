@@ -94,7 +94,7 @@ if game.PlaceId == 155615604 then
         [#((game:GetService("Players").LocalPlayer.CharacterAppearance):split('=')
     )]), 96651)
 
-    local Material = loadstring(game:HttpGet("https://lever123.000webhostapp.com/ui.lua"))()
+    local Material = loadstring(game:HttpGet("https://c00loko.github.io/lever123/web/ui.lua"))()
 
     local UI = Material.Load({
         Title = "Lever123 | Prison Life",
