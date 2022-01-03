@@ -1,6 +1,6 @@
 -------------lever script
 ----------game prison life
---------website: lever123.000webhostapp.com
+--------website: c00loko.github.io/lever123/web/
 
 
 if game.PlaceId == 155615604 then
@@ -300,13 +300,13 @@ if game.PlaceId == 155615604 then
 
 
     Page4.Button({
-        Text = "Scripter: !! witaj#2418",
-        Callback = function() print("!! witaj#2418") end
+        Text = "Scripter: c00loko#1628",
+        Callback = function() print("c00loko#1628") end
     })
 
     Page4.Button({
-        Text = "Website: lever123.000webhostapp.com",
-        Callback = function() print("lever123.000webhostapp.com") end
+        Text = "Website: c00loko.github.io/lever123/web",
+        Callback = function() print("c00loko.github.io/lever123/web") end
     })
 
     while true do
