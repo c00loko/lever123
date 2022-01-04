@@ -1,7 +1,7 @@
 -------------lever script
 ----------game prison life
 --------website: c00loko.github.io/lever123/web/
-
+---made with ❤️ cngy & c00loko
 
 if game.PlaceId == 155615604 then
     local function GetPos()
